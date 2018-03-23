@@ -1,0 +1,11 @@
+{
+    "require": {
+        "pda/pheanstalk": "3.0.*"
+    },
+	"repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

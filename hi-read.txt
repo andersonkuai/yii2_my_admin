@@ -1,0 +1,29 @@
+47.96.157.179
+system_user: hireadSix
+system_pass: Ab4t62uHvCt0OQaI
+
+mysql:
+root
+WjCn0hAe8BDddB08
+
+sudo /usr/local/lnmp/nginx/sbin/nginx -t
+sudo /usr/local/lnmp/nginx/sbin/nginx -s reload
+
+git
+git6Six@dev.hiread.cn:/home/git/hiread_dev.git
+
+
+C1g5tgsArUcXS07B
+
+alter table hi_user_g add column isMerge tinyint(1) DEFAULT '0' COMMENT '是否合并，1：是，0：否';
+ALTER TABLE `hi_user_g` ADD INDEX isMerge ( `isMerge` )
+
+禅道：
+https://pms.hiread.cn/index.php?m=my&f=index
+kuaijinwei
+HIread520
+
+线上：
+118.178.224.4(公)10.28.13.134(内) 
+root 3WHkHBuj2UtD4wn4
+mysql's root   73kBnrGUDLdFbb01

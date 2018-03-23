@@ -1,0 +1,11 @@
+.Wdate{/*���ڿؼ�������ʽ*/
+	BORDER: #7FA3BD 1px double;
+    font-family:PMingLiU;
+    font-family:Arial;
+	background:url(datePicker.gif) no-repeat right;
+}           
+
+.WdateFmtErr{
+	font-weight:bold;
+	color:red;
+}

@@ -1,0 +1,13 @@
+{
+  "apps" : [{
+    "name": "delayTask",
+    "args": "delay-task/run",
+    "script": "yii",
+    "exec_interpreter": "php",
+    "exec_mode": "fork",
+    "max_memory_restart": "100M"
+  }]
+}
+
+
+

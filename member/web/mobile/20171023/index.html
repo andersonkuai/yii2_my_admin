@@ -1,0 +1,50 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta charset="UTF-8" />  
+<link rel="stylesheet" href="pager.css"/>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script> 
+<script src="pager.js">  </script>  
+<title>pages</title>  
+</head>  
+<body>  
+	<div>
+	<ul class="pagination" id="page1">
+    </ul>
+	<div class="pageJump">
+		<span>跳转到</span>
+		<input type="text"/>
+		<span>页</span>
+		<button type="button" class="button">确定</button>
+	</div>
+	</div>
+    <div>
+	<ul class="pagination" id="page2">
+    </ul>
+	<div class="pageJump">
+		<span>跳转到</span>
+		<input type="text"/>
+		<span>页</span>
+		<button type="button" class="button">确定</button>
+	</div>
+	</div>
+	<script>
+		Page({
+			num:6,					//页码数
+			startnum:3,				//指定页码
+			elem:$('#page1'),		//指定的元素
+			callback:function(n){	//回调函数
+				console.log(n);
+			}
+		});
+		Page({
+			num:7,					//页码数
+			startnum:6,				//指定页码
+			elem:$('#page2'),		//指定的元素
+			callback:function(n){	//回调函数
+				console.log(n);
+			}
+		});
+	</script>
+</body>  
+</html>  
